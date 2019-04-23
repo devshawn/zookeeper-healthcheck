@@ -1,5 +1,7 @@
 # zookeeper-healthcheck
 
+[![Build Status](https://travis-ci.org/devshawn/zookeeper-healthcheck.svg?branch=master)](https://travis-ci.org/devshawn/zookeeper-healthcheck) ![PyPI](https://img.shields.io/pypi/v/zookeeper-healthcheck.svg?color=blue) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/zookeeper-healthcheck.svg) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+
 A simple healthcheck wrapper to monitor ZooKeeper.
 
 ZooKeeper Healthcheck is a simple server that provides a singular API endpoint to determine the health of a ZooKeeper instance. This can be used to alert or take action on unhealthy ZooKeeper instances.
