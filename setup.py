@@ -9,7 +9,6 @@ with open("zookeeper_healthcheck/version.py") as f:
     exec(f.read(), meta)
 
 requires = [
-    "requests>=2.21.0"
 ]
 
 setuptools.setup(
